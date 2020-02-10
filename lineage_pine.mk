@@ -17,7 +17,7 @@ PRODUCT_MODEL := Redmi 7A
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR := xiaomi
 TARGET_VENDOR_PRODUCT_NAME := pine
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="pine-user 9 PKQ1.190319.001 V11.0.4.0.PCMMIXM release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="pine-user 9 PKQ1.190319.001 V11.0.1.0.PCMEUOR release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Xiaomi/pine/pine:9/PKQ1.190319.001/V11.0.4.0.PCMMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/pine_eea/pine:9/PKQ1.190319.001/V11.0.1.0.PCMEUOR:user/release-keys
