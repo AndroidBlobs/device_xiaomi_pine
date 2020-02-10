@@ -66,10 +66,12 @@
     </carrier_config>
     <carrier_config mcc="226" mnc="01" cust_region="es_vodafone">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="230" mnc="03" cust_region="es_vodafone">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="234" mnc="15" cust_region="es_vodafone">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -78,6 +80,9 @@
     <carrier_config mcc="214" mnc="01" cust_region="es_vodafone">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="216" mnc="70" cust_region="es_vodafone">
+        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="286" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -123,6 +128,9 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
+    <carrier_config mcc="202" mnc="10">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="216" mnc="30">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
@@ -137,5 +145,10 @@
     <carrier_config mcc="219" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="732" mnc="111">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="false" />
+        <boolean name="hide_ims_apn_bool" value="false" />
     </carrier_config>
 </carrier_config_list>
